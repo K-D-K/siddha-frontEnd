@@ -1,0 +1,96 @@
+.login-body {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+  background: url("/images/logan.jpg");
+  background-size: 100% 100%;
+}
+
+.block-center {
+  box-sizing: border-box;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login-form{
+  display: inline-block;
+}
+
+.login-form-child{
+  vertical-align: middle;
+}
+
+.eq-split-parent {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.eq-split-child {
+    display: table-cell;
+}
+
+.homepage_admin {
+  width: 600px;
+  background-color: white;
+  margin: 60px auto 30px;
+  padding: 20px;
+  position: relative;
+}
+
+@media only screen and (max-width: 700px) {
+    .homepage_admin {
+        width: 90%;
+    }
+}
+
+.toggle{
+  padding: 20px 0;
+  height: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #444;
+  text-align: center;
+  border: 1px solid #C2C7D0;
+  background: #fafafa;
+  z-index: 10;
+}
+
+.user_details{
+  margin: 20px 10px 20px 10px;
+  border: 1px solid #C2C7D0;
+  height: 20px;
+  padding: 10px;
+  position: relative;
+}
+
+input {
+  width: 100%;
+  margin-left: 5px;
+  outline: none;
+  border: 0;
+}
+
+.user_details_div{
+  display: flex;
+}
+
+.image-input{
+  width: 20px;
+  height: 20px;
+}
+
+.submit-button{
+  height: auto;
+  min-width: 100px;
+  padding: 10px;
+  background-color: #e0e0e0;
+}
+
+.submit-button:hover{
+  background-color: #9a999e;
+}
